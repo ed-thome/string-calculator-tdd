@@ -1,4 +1,4 @@
-# string-calculator-tdd
+# String Calculator TDD Exercise
 
 Before you start:
 Try not to read ahead.
