@@ -1,7 +1,10 @@
 const add = require("./add");
 
 describe("add", () => {
-  it("should do something", () => {
-    expect(add()).not.toBeNull()
+  it("adds multiple numbers", () => {
+    const someString = '1,2,3'; 
+
+
+    expect(add(someString)).toEqual(6)
   })
 })
