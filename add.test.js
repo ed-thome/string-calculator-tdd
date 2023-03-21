@@ -14,4 +14,12 @@ describe("add", () => {
     expect(add(singleValue)).toEqual(2);
 
   });
+
+  it("should throw exception for negative number", ()=> {
+    const singleValue = '-3';
+
+    expect(add(singleValue)).toThrow("negatives not allowed")
+
+  });
+
 })
