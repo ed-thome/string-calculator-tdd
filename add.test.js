@@ -22,4 +22,9 @@ describe("add", () => {
 
   });
 
+it('adds multiple numbers', () => {
+  const twoValues = '1,2'; 
+
+  expect(add(twoValues)).toEqual(3)
+});
 })
