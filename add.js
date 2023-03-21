@@ -1,5 +1,5 @@
 const add = (inputString) => {
-  inputInt = parseInt(inputString); //failure case?
+  const inputInt = +inputString; //failure case?
 
   return inputInt;
 };
